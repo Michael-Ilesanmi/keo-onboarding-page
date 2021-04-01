@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.onboard-container {
+  width: 60%;
+  background-color: #ffffff;
+  position: relative;
+  padding: 30px 0;
+  margin: auto;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.onboard-container img {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.onboard-container h2 {
+  font-size: 18px;
+  color: #1c2544;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.onboard-container button {
+  width: 350px;
+  padding: 10px;
+  margin: 30px auto 50px;
+  background-color: #374988;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border: 0;
+}
+
+.onboard-container .understand {
+  font-size: 14px;
+  font-weight: 400;
+  color: #1c2544;
+}
+
+.onboard-container .account {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1c2544;
+}
+
+.onboard-container .log-in {
+  color: rgb(199, 38, 65);
+}
+
+@media screen and (max-width: 768px) {
+  .onboard-container {
+    width: 90%;
+  }
+
+  .onboard-container h2 {
+    font-size: 24px;
+  }
+
+  .onboard-container button {
+    width: 85%;
+    font-size: 20px;
+  }
+
+  .onboard-container .understand {
+    font-size: 18px;
+  }
+
+  .onboard-container .account {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .onboard-container {
+    width: 90%;
+  }
+
+  .onboard-container img {
+    width: 90%;
+  }
+
+  .onboard-container h2 {
+    font-size: 20px;
+  }
+
+  .onboard-container button {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .onboard-container .understand {
+    font-size: 14px;
+  }
+
+  .onboard-container .account {
+    font-size: 16px;
+  }
+}
